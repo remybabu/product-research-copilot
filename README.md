@@ -61,3 +61,37 @@ It reflects real-world PM workflows used in Agile teams.
 ```bash
 git clone https://github.com/YOUR_USERNAME/product-research-copilot.git
 cd product-research-copilot
+
+****2. Create a virtual environment****
+python -m venv venv
+
+3. Activate the virtual environment
+
+Mac / Linux:
+
+source venv/bin/activate
+
+Windows:
+
+venv\Scripts\activate
+
+4. Install dependencies
+pip install -r requirements.txt
+
+5. Set up environment variables
+
+Create a .env file in the project root and add:
+
+OPENAI_API_KEY=your_api_key_here
+
+6. Run the application
+streamlit run app.py
+
+7. Open in browser
+Open the local URL shown in the terminal (usually):
+
+http://localhost:8501
+
+Open the local URL shown in the terminal (usually):
+
+http://localhost:8501
