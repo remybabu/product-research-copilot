@@ -55,9 +55,9 @@ It reflects real-world PM workflows used in Agile teams.
 
 ---
 
-📦 How to Run Locally
+**📦 How to Run Locally**
 
-### 1. Clone the repository
+1. Clone the repository
 ```bash
 git clone https://github.com/YOUR_USERNAME/product-research-copilot.git
 cd product-research-copilot
